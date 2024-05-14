@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letra del DNI</title>
+    <link rel="stylesheet" href="DNIstyles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Letra del DNI</h1>
+        <form id="dniForm">
+            <label for="dni">Introduce el número de tu DNI:</label>
+            <input type="text" id="dni" name="dni" maxlength="8" required>
+            <button type="submit" id="calcularLetra">Calcular Letra</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="DNIscript.js" defer></script>
+</body>
+</html>
